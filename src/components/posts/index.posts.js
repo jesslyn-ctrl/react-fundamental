@@ -6,7 +6,7 @@ import ListPost from "./list.posts";
 const Posts = (props) => {
   return (
     <React.Fragment>
-      <Container className="mt-4">
+      <Container id="container">
         <ListPost />
       </Container>
     </React.Fragment>

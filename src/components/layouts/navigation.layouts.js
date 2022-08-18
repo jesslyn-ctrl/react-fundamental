@@ -8,7 +8,7 @@ const Navigation = ({ siteTitle }) => {
     "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png";
 
   return (
-    <Navbar expand="lg">
+    <Navbar className="fixed-top" expand="lg">
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} style={{ height: "35px" }} />

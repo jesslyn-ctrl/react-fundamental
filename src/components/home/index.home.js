@@ -13,7 +13,7 @@ const Home = (props) => {
 
   return (
     <React.Fragment>
-      <Container className="mt-4">
+      <Container id="container">
         <Row className="px-4 my-5">
           <Col sm={7}>
             <Image src={welcomeUrl} fluid rounded />
