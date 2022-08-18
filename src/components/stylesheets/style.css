@@ -1,0 +1,72 @@
+.postId {
+    padding: 10px 10px 0 0;
+    margin-right: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.postItem {
+    margin: 5px;
+    border-radius: 2px;
+    color: #000;
+    background-image: linear-gradient(to right, rgba(255,255,255,255), rgb(86, 186, 225));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 5px 10px #ccc;
+}
+
+.postItem:hover {
+    color: #FFF !important;
+    background-image: linear-gradient(to right, rgba(36,26,111,255), rgb(72, 74, 159)) !important;
+}
+
+.btn-plus {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-color: #008000;
+    font-size: large;
+    font-weight: bolder;
+    color: #FFF;
+    background-image: repeating-linear-gradient(to left, rgba(20, 230, 100,100), rgb(18, 140, 57));
+    box-shadow: 0 1px 3px #000;
+}
+
+.btn-plus:hover {
+    background: #7be67b;
+    color:#000
+}
+
+.btn-min {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border-color: #FF0000;
+    font-size: large;
+    font-weight: bolder;
+    color: #FFF;
+    background-image: repeating-linear-gradient(to left, rgba(214, 14, 7,200), rgb(172, 12, 6));
+    box-shadow: 0 1px 3px #000;
+}
+
+.btn-min:hover {
+    background: #e6907b;
+    color:#000
+}
+
+
+#artistic {
+    padding: 10px 10px 0 0;
+    margin-right: 5px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #8FBC8F;
+    box-shadow: 0 5px #999;
+    margin: 5px 0;
+}

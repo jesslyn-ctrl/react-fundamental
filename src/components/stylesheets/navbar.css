@@ -1,0 +1,36 @@
+nav {
+    /* height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+    background-image: linear-gradient(to right, rgba(255,255,255,255), rgba(211,245,255,1));;
+    box-shadow: 0 5px 10px #ccc;
+  }
+  
+  /* Basic styles for nav links */
+  /* nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    text-decoration: none;
+  } */
+  
+  /* Specific styles for non-active links */
+
+  .nav-link {
+    color: #441eff !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .nav-link:hover {
+    color: #1E90FF !important;
+  }
+
+  .active {
+    color: #1cb762 !important;
+    font-weight: bold !important;
+  }
