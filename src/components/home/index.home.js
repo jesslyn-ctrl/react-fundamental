@@ -58,10 +58,10 @@ const Home = (props) => {
                 style={{ height: "10rem" }}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Cat 1</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Some quick text just to say "meow, meow, meow, meow, meow,
+                  meow, meow".
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
@@ -75,10 +75,10 @@ const Home = (props) => {
                 style={{ height: "10rem" }}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Cat 2</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Some quick text just to say "meow, meow, meow, meow, meow,
+                  meow, meow".
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
@@ -92,10 +92,10 @@ const Home = (props) => {
                 style={{ height: "10rem" }}
               />
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Cat 3</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Some quick text just to say "meow, meow, meow, meow, meow,
+                  meow, meow".
                 </Card.Text>
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
