@@ -13,6 +13,7 @@ const Home = (props) => {
 
   return (
     <React.Fragment>
+      <br />
       <Container id="container">
         <Row className="px-4 my-5">
           <Col sm={7}>
@@ -22,13 +23,19 @@ const Home = (props) => {
             <br />
             <h1>HOMEPAGE 😊👻</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              1. Routing <b>URL Posts</b> dengan isian component dari API post
+              berikut: https://jsonplaceholder.typicode.com/posts berdasarkan
+              Title.
+              <br />
+              2. Modifikasi UI Homepage.
+              <br />
+              3. Aktivasi navigation bar (ketika default atau ketika berada di
+              routing menunya).
+              <br />
+              4. Ketika Title pada menu Posts ditekan, tampilkan modal popup
+              berisi ID, Title dan Deskripsi Post.
+              <br />
+              5. Kreatifitas UI masing-masing.
             </p>
           </Col>
         </Row>
@@ -39,8 +46,7 @@ const Home = (props) => {
               <blockquote className="blockquote mb-0">
                 <p>
                   {" "}
-                  Just do your thing and never give up! Don't forget to eat
-                  pizza~ 🍕{" "}
+                  Keep coding and never give up! Don't forget to eat pizza~ 🍕{" "}
                 </p>
                 <footer className="blockquote-footer">
                   Someone famous in <cite title="Source Title">IDK</cite>
@@ -63,7 +69,6 @@ const Home = (props) => {
                   Some quick text just to say "meow, meow, meow, meow, meow,
                   meow, meow".
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -80,7 +85,6 @@ const Home = (props) => {
                   Some quick text just to say "meow, meow, meow, meow, meow,
                   meow, meow".
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -97,7 +101,6 @@ const Home = (props) => {
                   Some quick text just to say "meow, meow, meow, meow, meow,
                   meow, meow".
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
           </Col>
