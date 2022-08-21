@@ -20,8 +20,11 @@ const Home = (props) => {
             <h1>HOMEPAGE 😊👻</h1>
             <p>
               1. Routing <b>URL Posts</b> dengan isian component dari API post
-              berikut: https://jsonplaceholder.typicode.com/posts berdasarkan
-              Title.
+              berikut:{" "}
+              <a href="https://jsonplaceholder.typicode.com/posts">
+                https://jsonplaceholder.typicode.com/posts
+              </a>{" "}
+              berdasarkan Title.
               <br />
               2. Modifikasi UI Homepage.
               <br />
@@ -45,7 +48,7 @@ const Home = (props) => {
                   Keep coding and never give up! Don't forget to eat pizza~ 🍕{" "}
                 </p>
                 <footer className="blockquote-footer">
-                  Someone famous in <cite title="Source Title">IDK</cite>
+                  <cite title="Source Title">Jesslyn</cite>
                 </footer>
               </blockquote>
             </Card.Body>
