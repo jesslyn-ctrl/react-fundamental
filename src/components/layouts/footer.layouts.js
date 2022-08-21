@@ -9,7 +9,10 @@ import {
 
 const FooterMdb = () => {
   return (
-    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
+    <MDBFooter
+      bgColor="light"
+      className="text-center text-lg-start text-muted mt-4"
+    >
       <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
         <div className="me-5 d-none d-lg-block">
           <span>Get connected with me on social networks:</span>
@@ -40,17 +43,12 @@ const FooterMdb = () => {
       <section className="">
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3">
-            <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+            <MDBCol md="2" lg="2" xl="3" className="mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">
                 <MDBIcon icon="gem" className="me-2" />
-                Organization name
+                Developer name
               </h6>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
+              <p>Jesslyn</p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
@@ -106,7 +104,7 @@ const FooterMdb = () => {
         style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
       >
         © 2022 Copyright:
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+        <a className="text-reset fw-bold" href="#!">
           HelloJesslyn.com
         </a>
       </div>
